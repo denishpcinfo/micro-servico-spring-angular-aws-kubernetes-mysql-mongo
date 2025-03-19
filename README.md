@@ -1,6 +1,6 @@
-# Projeto de Microsserviço com Spring Cloud, Kubernetes, Docker(Docker Hub), Eureka, Spring (3.1.6 e 2.7.12), Maven, Angular 16, My SQL, MongoDB, AWS(IAM, EC2, EKS e RDS), Jenkins CD, Argo DC e Github(Git Hooks).
+# Projeto de Micro serviço com Spring Cloud, Kubernetes, Docker(Docker Hub), Eureka, Spring (3.1.6 e 2.7.12), Maven, Angular 16, My SQL, MongoDB, AWS(IAM, EC2, EKS e RDS), Jenkins CD, Argo DC e Github(Git Hooks).
 
-Este projeto implementa uma arquitetura de microsserviços utilizando Spring Cloud, Kubernetes e Docker para entrega e escalabilidade. Os microsserviços são escritos em Spring Boot (versões 3.1.6 e 2.7.12) e se comunicam via Eureka Service Discovery.
+Este projeto implementa uma arquitetura de micro serviços utilizando Spring Cloud, Kubernetes e Docker para entrega e escalabilidade. Os micro serviços são escritos em Spring Boot (versões 3.1.6 e 2.7.12) e se comunicam via Eureka Service Discovery.
 
 O frontend é desenvolvido em Angular 16 e a solução utiliza MySQL e MongoDB como bancos de dados. A infraestrutura é provisionada na AWS utilizando IAM, EC2, EKS e RDS. O ciclo de vida da aplicação é gerenciado com Jenkins CD, ArgoCD e Git Hooks.
 
@@ -25,10 +25,10 @@ DevOps e CI/CD:
 
 # Arquitetura do Projeto
 
-1.  Eureka Server:  Service discovery para registro e descoberta de microsserviços.
-2.  Config Server:  Centraliza configurações dinâmicas dos microsserviços.
+1.  Eureka Server:  Service discovery para registro e descoberta de micro serviços.
+2.  Config Server:  Centraliza configurações dinâmicas dos micro serviços.
 3.  API Gateway:  Roteamento e segurança dos serviços.
-4.  Microsserviços Independentes:  Implementados em Spring Boot, cada um com sua responsabilidade.
+4.  micro serviços Independentes:  Implementados em Spring Boot, cada um com sua responsabilidade.
 5.  Banco de Dados:  MySQL para dados relacionais e MongoDB para documentos.
 6.  Docker & Kubernetes:  Containerização e orquestração dos serviços.
 7.  CI/CD:  Jenkins para integração contínua e ArgoCD para entrega contínua.
